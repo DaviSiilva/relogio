@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.conteiner {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.conteiner h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.relogio {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.relogio.pausado {
+    color: #ff4c4c;
+}
+
+button {
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b60d1;
+}
+
+button:active {
+    background-color: #154ba3;
+}
+
+.iniciar {
+    background-color: #28a745;
+}
+
+.iniciar:hover {
+    background-color: #218838;
+}
+
+.pausar {
+    background-color: #ffc107;
+}
+
+.pausar:hover {
+    background-color: #e0a800;
+}
+
+.zerar {
+    background-color: #dc3545;
+}
+
+.zerar:hover {
+    background-color: #c82333;
+}
