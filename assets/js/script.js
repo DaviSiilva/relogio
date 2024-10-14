@@ -7,7 +7,7 @@ function relogio() {
             timeZone: 'UTC',
         });
     }
-    console.log(criaHoraDosSegundos(10));
+
     
     const relogio = document.querySelector('.relogio');
     const iniciar = document.querySelector('.iniciar');
